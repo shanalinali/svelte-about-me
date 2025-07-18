@@ -9,24 +9,24 @@
 
   let cardData = [
     {
-      image: "public/images/Dancing_Solo.JPEG",
+      image: "images/Dancing_Solo.JPEG",
       title: "Dancing",
       description: "I've been doing it since I was young. Fully self-taught!",
     },
     {
-      image: "public/images/Hosting_CultureFest.jpg",
+      image: "images/Hosting_CultureFest.jpg",
       title: "Hosting Events",
       description:
         "I've emceed for 3 ASU events so far, some with crowds over 1,000! I love the festival vibe.",
     },
     {
-      image: "public/images/Reading_With_Chloe_Gong.jpg",
+      image: "images/Reading_With_Chloe_Gong.jpg",
       title: "Reading",
       description:
         "I can read 500+ pages in a day. Reach out if you want to exchange Goodreads accounts!",
     },
     {
-      image: "public/images/ENHYPEN_Concert.jpg",
+      image: "images/ENHYPEN_Concert.jpg",
       title: "Concerts",
       description:
         "Live music keeps me alive; current album on repeat is down below!",
