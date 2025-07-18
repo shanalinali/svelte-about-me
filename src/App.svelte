@@ -9,29 +9,24 @@
 
   let cardData = [
     {
-      image:
-        "images/Dancing_Solo.JPEG",
+      image: "public/images/Dancing_Solo.JPEG",
       title: "Dancing",
       description: "I've been doing it since I was young. Fully self-taught!",
     },
     {
-      image:
-        "images/Hosting_CultureFest.jpg",
+      image: "public/images/Hosting_CultureFest.jpg",
       title: "Hosting Events",
       description:
         "I've emceed for 3 ASU events so far, some with crowds over 1,000! I love the festival vibe.",
     },
     {
-      image:
-        "images/Reading_With_Chloe_Gong.jpg",
+      image: "public/images/Reading_With_Chloe_Gong.jpg",
       title: "Reading",
       description:
         "I can read 500+ pages in a day. Reach out if you want to exchange Goodreads accounts!",
     },
     {
-      // NALI change photos
-      image:
-        "images/ENHYPEN_Concert.jpg",
+      image: "public/images/ENHYPEN_Concert.jpg",
       title: "Concerts",
       description:
         "Live music keeps me alive; current album on repeat is down below!",
@@ -43,7 +38,10 @@
   <h1>Who is <strong>Shanali Islam</strong>?</h1>
   <p>Meet Me! 👋🏽</p>
   <div class="profile-pic">
-    <img src="images/Profile_Photo.jpg" alt="Shanali Islam modeling for the Sun Devil Campus Bookstore during her freshman year at Arizona State University.">
+    <img
+      src="images/Profile_Photo.jpg"
+      alt="Shanali Islam modeling for the Sun Devil Campus Bookstore during her freshman year at Arizona State University."
+    />
   </div>
   <p>{bio}</p>
   <p>
@@ -85,12 +83,12 @@
   img {
     border: 5px solid #ddd;
     border-radius: 6px;
-    padding: 4px; 
+    padding: 4px;
     width: 200px;
-    transition: transform .3s ease; /* Images should smoothly maintain the 'transform' transition for .3s */
+    transition: transform 0.3s ease; /* Images should smoothly maintain the 'transform' transition for .3s */
   }
 
-  img:hover{
+  img:hover {
     transform: scale(1.1); /* Actually executes the image animation*/
   }
 
@@ -112,7 +110,7 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px 15px;
     border-radius: 5px;
-    transition: transform .3s ease; /* Tells browser to smoothly animate a 'transform' transition for 0.3s */
+    transition: transform 0.3s ease; /* Tells browser to smoothly animate a 'transform' transition for 0.3s */
   }
 
   .hobby:hover {
